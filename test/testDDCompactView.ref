@@ -1,0 +1,155 @@
+main:: initialize
+main::initialize DDL parser
+cms:OCMS is the ROOT
+main::about to start parsing
+Start Parsing.  Validation is set to 0.
+Timing in DDLParser:NoValidation : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:cms.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:quadrupole.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:beampipe.xml : Real Time = 0 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = -0.01 (s), 
+Timing in DDLParser:mgnt.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:cavern.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:trak.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Timing in DDLParser:pxlx.xml : Real Time = 0.05 (s), User Time = 0.04 (s), System Time = 0 (s), Cpu Time = 0.04 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:tib.xml : Real Time = 0.12 (s), User Time = 0.12 (s), System Time = 0 (s), Cpu Time = 0.12 (s), Idle Time = 0 (s), 
+Timing in DDLParser:tid.xml : Real Time = 0.07 (s), User Time = 0.07 (s), System Time = 0 (s), Cpu Time = 0.07 (s), Idle Time = 0 (s), 
+Timing in DDLParser:tec.xml : Real Time = 0.38 (s), User Time = 0.37 (s), System Time = 0 (s), Cpu Time = 0.37 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:tob.xml : Real Time = 0.14 (s), User Time = 0.14 (s), System Time = 0 (s), Cpu Time = 0.14 (s), Idle Time = 0 (s), 
+Timing in DDLParser:ecal.xml : Real Time = 0.75 (s), User Time = 0.73 (s), System Time = 0.02 (s), Cpu Time = 0.75 (s), Idle Time = 0 (s), 
+Timing in DDLParser:hcal.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0.01 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Timing in DDLParser:hcalbarrel.xml : Real Time = 0.03 (s), User Time = 0.04 (s), System Time = 0 (s), Cpu Time = 0.04 (s), Idle Time = -0.01 (s), 
+Timing in DDLParser:hcalendcap.xml : Real Time = 0.03 (s), User Time = 0.03 (s), System Time = 0 (s), Cpu Time = 0.03 (s), Idle Time = 0 (s), 
+Timing in DDLParser:hcalouter.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:vcal.xml : Real Time = 0 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = -0.01 (s), 
+Timing in DDLParser:mb.xml : Real Time = 0.17 (s), User Time = 0.14 (s), System Time = 0 (s), Cpu Time = 0.14 (s), Idle Time = 0.03 (s), 
+Timing in DDLParser:mf.xml : Real Time = 0.08 (s), User Time = 0.08 (s), System Time = 0 (s), Cpu Time = 0.08 (s), Idle Time = 0 (s), 
+Timing in DDLParser:malg.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:materials.xml : Real Time = 0.15 (s), User Time = 0.15 (s), System Time = 0 (s), Cpu Time = 0.15 (s), Idle Time = 0 (s), 
+Timing in DDLParser:rotations.xml : Real Time = 0.09 (s), User Time = 0.05 (s), System Time = 0 (s), Cpu Time = 0.05 (s), Idle Time = 0.04 (s), 
+Timing in DDLParser:colors.xml : Real Time = 0.03 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0.02 (s), 
+Timing in DDLParser:trackersens.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:ecalsens.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Timing in DDLParser:hcalsens.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:muonsens.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Timing in DDLParser:muon_numbering.xml : Real Time = 0.03 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0.02 (s), 
+Timing in DDLParser:orca_tracker.xml : Real Time = 0 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = -0.01 (s), 
+Timing in DDLParser:TkRecoMaterial.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Timing in DDLParser:MuBarOrcaFilter.xml : Real Time = 0 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = -0.01 (s), 
+Timing in DDLParser:MuEndOrcaSpec.xml : Real Time = 0.02 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:MuEndOrcaFilter.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0.01 (s), 
+Timing in DDLParser:MuRpcOrcaSpec.xml : Real Time = 0 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0 (s), 
+Timing in DDLParser:MagneticFieldVolumes.xml : Real Time = 0.2 (s), User Time = 0.19 (s), System Time = 0 (s), Cpu Time = 0.19 (s), Idle Time = 0.01 (s), 
+Element: Constant (24)
+Timing in DDLParser1 : Real Time = 2.45 (s), User Time = 2.26 (s), System Time = 0.03 (s), Cpu Time = 2.29 (s), Idle Time = 0.16 (s), 
+Root node data = cms:OCMS 
+ mat=materials:Air
+ solid=cms:OCMS   Tube(section):  zhalf=2700 rIn=0 rOut=1300 startPhi=0 deltaPhi=360
+Timing in DDLParser:cms.xml : Real Time = 0.02 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./CMS/CMSGeometry/cms.xml.
+Timing in DDLParser:quadrupole.xml : Real Time = 0.02 (s), User Time = 0.02 (s), System Time = 0 (s), Cpu Time = 0.02 (s), Idle Time = 0 (s), 
+Completed parsing file ./CMS/CMSGeometry/quadrupole.xml.
+Timing in DDLParser:beampipe.xml : Real Time = 0.02 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./CMS/CMSGeometry/beampipe.xml.
+Timing in DDLParser:mgnt.xml : Real Time = 0.01 (s), User Time = 0 (s), System Time = 0 (s), Cpu Time = 0 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./CMS/CMSGeometry/mgnt.xml.
+Timing in DDLParser:cavern.xml : Real Time = 0 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = -0.01 (s), 
+Completed parsing file ./CMS/CMSGeometry/cavern.xml.
+Timing in DDLParser:trak.xml : Real Time = 0.05 (s), User Time = 0.05 (s), System Time = 0 (s), Cpu Time = 0.05 (s), Idle Time = 0 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/trak.xml.
+Timing in DDLParser:pxlx.xml : Real Time = 0.17 (s), User Time = 0.19 (s), System Time = 0 (s), Cpu Time = 0.19 (s), Idle Time = -0.02 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/pxlx.xml.
+Timing in DDLParser:tib.xml : Real Time = 0.51 (s), User Time = 0.51 (s), System Time = 0 (s), Cpu Time = 0.51 (s), Idle Time = 0 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/tib.xml.
+Timing in DDLParser:tid.xml : Real Time = 0.3 (s), User Time = 0.28 (s), System Time = 0.01 (s), Cpu Time = 0.29 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/tid.xml.
+Timing in DDLParser:tec.xml : Real Time = 1.59 (s), User Time = 1.52 (s), System Time = 0.07 (s), Cpu Time = 1.59 (s), Idle Time = 0 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/tec.xml.
+Timing in DDLParser:tob.xml : Real Time = 0.61 (s), User Time = 0.58 (s), System Time = 0.01 (s), Cpu Time = 0.59 (s), Idle Time = 0.02 (s), 
+Completed parsing file ./Tracker/TrackerGeometry/tob.xml.
+Timing in DDLParser:ecal.xml : Real Time = 3.28 (s), User Time = 3.18 (s), System Time = 0.1 (s), Cpu Time = 3.28 (s), Idle Time = 0 (s), 
+Completed parsing file ./ECal/ECalGeometry/ecal.xml.
+Timing in DDLParser:hcal.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Completed parsing file ./HCal/HCalGeometry/hcal.xml.
+Timing in DDLParser:hcalbarrel.xml : Real Time = 0.13 (s), User Time = 0.13 (s), System Time = 0 (s), Cpu Time = 0.13 (s), Idle Time = 0 (s), 
+Completed parsing file ./HCal/HCalGeometry/hcalbarrel.xml.
+Timing in DDLParser:hcalendcap.xml : Real Time = 0.13 (s), User Time = 0.11 (s), System Time = 0.01 (s), Cpu Time = 0.12 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./HCal/HCalGeometry/hcalendcap.xml.
+Timing in DDLParser:hcalouter.xml : Real Time = 0.02 (s), User Time = 0.02 (s), System Time = 0 (s), Cpu Time = 0.02 (s), Idle Time = 0 (s), 
+Completed parsing file ./HCal/HCalGeometry/hcalouter.xml.
+Timing in DDLParser:vcal.xml : Real Time = 0.03 (s), User Time = 0.02 (s), System Time = 0 (s), Cpu Time = 0.02 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./HCal/HCalGeometry/vcal.xml.
+Timing in DDLParser:mb.xml : Real Time = 0.68 (s), User Time = 0.66 (s), System Time = 0.02 (s), Cpu Time = 0.68 (s), Idle Time = 0 (s), 
+Completed parsing file ./Muon/MuonGeometry/mb.xml.
+Timing in DDLParser:mf.xml : Real Time = 0.34 (s), User Time = 0.35 (s), System Time = 0 (s), Cpu Time = 0.35 (s), Idle Time = -0.01 (s), 
+Completed parsing file ./Muon/MuonGeometry/mf.xml.
+Timing in DDLParser:malg.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Completed parsing file ./Muon/MuonGeometry/malg.xml.
+Timing in DDLParser:materials.xml : Real Time = 0.46 (s), User Time = 0.44 (s), System Time = 0.01 (s), Cpu Time = 0.45 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./Materials/materials.xml.
+Timing in DDLParser:rotations.xml : Real Time = 0.56 (s), User Time = 0.52 (s), System Time = 0.02 (s), Cpu Time = 0.54 (s), Idle Time = 0.02 (s), 
+Completed parsing file ./Rotations/rotations.xml.
+Timing in DDLParser:colors.xml : Real Time = 0.91 (s), User Time = 0.89 (s), System Time = 0 (s), Cpu Time = 0.89 (s), Idle Time = 0.02 (s), 
+Completed parsing file ./CMS/CMSGeometry/colors.xml.
+Timing in DDLParser:trackersens.xml : Real Time = 0.1 (s), User Time = 0.08 (s), System Time = 0 (s), Cpu Time = 0.08 (s), Idle Time = 0.02 (s), 
+Completed parsing file ./Tracker/TrackerSensDet/trackersens.xml.
+Timing in DDLParser:ecalsens.xml : Real Time = 0.27 (s), User Time = 0.26 (s), System Time = 0.01 (s), Cpu Time = 0.27 (s), Idle Time = 0 (s), 
+Completed parsing file ./ECal/ECalSensDet/ecalsens.xml.
+Timing in DDLParser:hcalsens.xml : Real Time = 0.03 (s), User Time = 0.03 (s), System Time = 0 (s), Cpu Time = 0.03 (s), Idle Time = 0 (s), 
+Completed parsing file ./HCal/HCalSensDet/hcalsens.xml.
+Timing in DDLParser:muonsens.xml : Real Time = 0.05 (s), User Time = 0.04 (s), System Time = 0 (s), Cpu Time = 0.04 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./Muon/MuonSensDet/muonsens.xml.
+Timing in DDLParser:muon_numbering.xml : Real Time = 0.17 (s), User Time = 0.18 (s), System Time = 0 (s), Cpu Time = 0.18 (s), Idle Time = -0.01 (s), 
+Completed parsing file ./Muon/MuonSensDet/muon_numbering.xml.
+Timing in DDLParser:orca_tracker.xml : Real Time = 0.08 (s), User Time = 0.07 (s), System Time = 0 (s), Cpu Time = 0.07 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./TrackerData/orca_tracker.xml.
+Timing in DDLParser:TkRecoMaterial.xml : Real Time = 0.93 (s), User Time = 0.94 (s), System Time = 0 (s), Cpu Time = 0.94 (s), Idle Time = -0.01 (s), 
+Completed parsing file ./TrackerData/TkMaterial/TkRecoMaterial.xml.
+Timing in DDLParser:MuBarOrcaFilter.xml : Real Time = 0.1 (s), User Time = 0.11 (s), System Time = 0 (s), Cpu Time = 0.11 (s), Idle Time = -0.01 (s), 
+Completed parsing file ./MuonData/BarrelData/MuBarOrcaFilter.xml.
+Timing in DDLParser:MuEndOrcaSpec.xml : Real Time = 0.11 (s), User Time = 0.09 (s), System Time = 0 (s), Cpu Time = 0.09 (s), Idle Time = 0.02 (s), 
+Completed parsing file ./MuonData/EndcapData/MuEndOrcaSpec.xml.
+Timing in DDLParser:MuEndOrcaFilter.xml : Real Time = 0.01 (s), User Time = 0.01 (s), System Time = 0 (s), Cpu Time = 0.01 (s), Idle Time = 0 (s), 
+Completed parsing file ./MuonData/EndcapData/MuEndOrcaFilter.xml.
+Timing in DDLParser:MuRpcOrcaSpec.xml : Real Time = 0.05 (s), User Time = 0.04 (s), System Time = 0 (s), Cpu Time = 0.04 (s), Idle Time = 0.01 (s), 
+Completed parsing file ./MuonData/RpcData/MuRpcOrcaSpec.xml.
+Timing in DDLParser:MagneticFieldVolumes.xml : Real Time = 2.73 (s), User Time = 2.73 (s), System Time = 0.03 (s), Cpu Time = 2.76 (s), Idle Time = -0.03 (s), 
+Completed parsing file ./MagneticField/MagneticFieldVolumes.xml.
+Timing in DDLParser2 : Real Time = 14.51 (s), User Time = 14.1 (s), System Time = 0.29 (s), Cpu Time = 14.39 (s), Idle Time = 0.12 (s), 
+main::completed Parser
+
+
+main::Start checking!
+
+[DDCore:Report] Materials 
+ 609 Materials declared
+ detected errors:0
+======== ev - node - pospart test ======
+cms:OCMS
+lp = cms:MUON 
+ mat=materials:Air
+ solid=cms:MUON   Polycone_rrz: 0 6.28319 -10860 300 8300 -10600 300 8300 -10600 163 8300 -5541 89.3 8300 -5541 2950 8300 5541 2950 8300 5541 89.3 8300 10600 163 8300 10600 300 8300 10860 300 8300 
+== about to get du cpv ==
+Root node data = cms:MUON 
+ mat=materials:Air
+ solid=cms:MUON   Polycone_rrz: 0 6.28319 -10860 300 8300 -10600 300 8300 -10600 163 8300 -5541 89.3 8300 -5541 2950 8300 5541 2950 8300 5541 89.3 8300 10600 163 8300 10600 300 8300 10860 300 8300 
+== done got du cpv ==
+== got the epv ==
+/cms:MUON[0]/mgnt:MGNT[1]
+/cms:MUON[0]/mf:MF[1]
+/cms:MUON[0]/mf:MF[1]/mf:YN0[1]
+/cms:MUON[0]/mf:MF[1]/mf:MF1[1]
+/cms:MUON[0]/mf:MF[1]/mf:YN12[1]
+/cms:MUON[0]/mf:MF[1]/mf:YN12[1]
+/cms:MUON[0]/mf:MF[1]/mf:YEA5[1]
+/cms:MUON[0]/mf:MF[1]/mf:YEA5[1]/mf:YEX5[1]
+/cms:MUON[0]/mf:MF[1]/mf:YEA5[1]/mf:YEX5[2]
+/cms:MUON[0]/mf:MF[1]/mf:YEA5[1]/mf:YEX5[2]/mf:HT13_1_YEX5[1]
+/cms:MUON[0]/mf:MF[1]/mf:YEA5[1]/mf:YEX5[2]/mf:HT13_2_YEX5[2]
+Timing in DDIsValid(...) : Real Time = 5.53 (s), User Time = 5.45 (s), System Time = 0.04 (s), Cpu Time = 5.49 (s), Idle Time = 0.04 (s), 
+Timing in DDTokenize2(...) : Real Time = 5.54 (s), User Time = 5.45 (s), System Time = 0.04 (s), Cpu Time = 5.49 (s), Idle Time = 0.05 (s), 
+Timing in Specifics::createPartSelections(...) : Real Time = 5.54 (s), User Time = 5.45 (s), System Time = 0.04 (s), Cpu Time = 5.49 (s), Idle Time = 0.05 (s), 
+Timing in DDSpecifics::DDSpecifics(...) : Real Time = 5.54 (s), User Time = 5.45 (s), System Time = 0.04 (s), Cpu Time = 5.49 (s), Idle Time = 0.05 (s), 
+Timing in ClhepEvaluator::eval(...) : Real Time = 14.53 (s), User Time = 14.12 (s), System Time = 0.29 (s), Cpu Time = 14.41 (s), Idle Time = 0.12 (s), 
+Timing in DDLSAX2ExpressionHandler::startElement(..) : Real Time = 16.98 (s), User Time = 16.38 (s), System Time = 0.32 (s), Cpu Time = 16.7 (s), Idle Time = 0.28 (s), 
+Timing in DDLParser:Construct : Real Time = 16.99 (s), User Time = 16.38 (s), System Time = 0.33 (s), Cpu Time = 16.71 (s), Idle Time = 0.28 (s), 
+Timing in DDName::registerName(...) : Real Time = 16.99 (s), User Time = 16.38 (s), System Time = 0.33 (s), Cpu Time = 16.71 (s), Idle Time = 0.28 (s), 
