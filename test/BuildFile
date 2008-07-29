@@ -4,10 +4,19 @@
 <use name=DetectorDescription/Algorithm>
 <use name=DetectorDescription/Parser>
 <use name=xerces-c>
+<use name=DetectorDescription/RegressionTest>
+<use name=FWCore/Framework>
+<use name=FWCore/Utilities>
+<use name=FWCore/PluginManager>
+<use name=FWCore/ParameterSet>
+<use name=FWCore/ServiceRegistry>
+<use name=FWCore/MessageLogger>
+
 
 <bin file=testNew.cpp></bin>
 <bin file=testDoc.cpp></bin>
-<bin file=testDDCompactView.cpp></bin>
+<bin file=dumpDDCompactView.cpp></bin>
+<bin file=dumpDDExpandedView.cpp></bin>
 # # 
 # <bin file=dddWalker.cpp>
  
