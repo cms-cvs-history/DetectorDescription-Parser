@@ -1,4 +1,3 @@
-#<use name=Utilities>
 <use name=DetectorDescription/Core>
 <use name=DetectorDescription/ExprAlgo>
 <use name=DetectorDescription/Algorithm>
@@ -15,25 +14,7 @@
 
 <bin file=testNew.cpp></bin>
 <bin file=testDoc.cpp></bin>
+<bin file=testDDCompactView.cpp></bin>
 <bin file=dumpDDCompactView.cpp></bin>
 <bin file=dumpDDExpandedView.cpp></bin>
-# # 
-# <bin file=dddWalker.cpp>
- 
-# </bin>
-
-# # 
-# <bin file=mf.cpp>
- 
-# </bin>
-
-# # 
-# <bin file=main.cpp>
- 
-# </bin>
-
-# # 
-# <bin file=multiconf.cpp>
- 
-# </bin>
-
+<bin file=testmat.cpp></bin>
