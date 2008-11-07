@@ -27,13 +27,10 @@
 #include "DetectorDescription/Core/interface/DDCurrentNamespace.h"
 
 // Xerces C++ dependencies
-#include <xercesc/sax2/Attributes.hpp>
 #include <xercesc/sax/SAXParseException.hpp>
 #include <xercesc/sax/SAXException.hpp>
 
 #include <iostream>
-#include <vector>
-#include <string>
 
 // ---------------------------------------------------------------------------
 //  DDLSAX2Handler: Constructors and Destructor
@@ -108,6 +105,14 @@ void DDLSAX2FileHandler::endElement(const XMLCh* const uri
   DDXMLElement* myElement = DDLElementRegistry::getElement(myElementName);
   DDLParser* beingParsed = DDLParser::instance();
   std::string nmspace = getnmspace(extractFileName( beingParsed->getCurrFileName()));
+  // The need for processElement to have the nmspace so that it can 
+  // do the necessary gymnastics made things more complicated in the
+  // effort to allow fully user-controlled namespaces.  So the "magic"
+  // trick of setting nmspace to "!" is used :(... I don't like this magic trick
+  // -- Michael Case 2008-11-06
+  if ( userNS_ ) {
+    nmspace = "!";
+  }
   DDCurrentNamespace::ns() = nmspace;
   myElement->processElement(myElementName, nmspace);
   DCOUT_V('P', "DDLSAX2FileHandler::endElement completed");

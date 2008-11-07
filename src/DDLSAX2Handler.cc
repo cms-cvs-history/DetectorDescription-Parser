@@ -19,13 +19,9 @@
 #include "DetectorDescription/Base/interface/DDException.h"
 
 // Xerces C++ dependencies
-#include <xercesc/sax2/Attributes.hpp>
 #include <xercesc/sax/SAXParseException.hpp>
 #include <xercesc/sax/SAXException.hpp>
 
-#include <iostream>
-#include <vector>
-#include <string>
 
 // CMSSW Framework Dependency
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
@@ -155,4 +151,8 @@ std::string DDLSAX2Handler::getnmspace(const std::string& fname)
   if (j < fname.size() && fname[j] == '.')
     ret = fname.substr(0, j);
   return ret;
+}
+
+void DDLSAX2Handler::setUserNS(bool userns) { 
+  userNS_ = userns; 
 }
