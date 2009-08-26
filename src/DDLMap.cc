@@ -17,6 +17,9 @@
 #include "DetectorDescription/Base/interface/DDdebug.h"
 #include "DetectorDescription/ExprAlgo/interface/ExprEvalSingleton.h"
 
+
+using namespace boost::spirit;
+
 //  The "real" DDLMap members.
 DDLMap::DDLMap()
 {
@@ -107,8 +110,7 @@ void DDLMap::processElement (const std::string& name, const std::string& nmspace
   
   pMap.clear();
 
-  //left this in to mimimize confusion with parse method of DD
-  parse_info<> info = boost::spirit::classic::parse(tTextToParse.c_str(), mapGrammar >> end_p, space_p);
+  parse_info<> info = boost::spirit::parse(tTextToParse.c_str(), mapGrammar >> end_p, space_p);
   if (!info.full)
     {
       errorOut("Does not conform to name=value, name=value... etc. of ddl Map element.");
