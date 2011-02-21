@@ -25,7 +25,6 @@
 #include "FWCore/PythonParameterSet/interface/MakeParameterSets.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 
-#include "DetectorDescription/Parser/interface/DDLParser.h"
 #include "DetectorDescription/Parser/interface/FIPConfiguration.h"
 #include "DetectorDescription/Core/src/DDCheck.h"
 #include "DetectorDescription/Core/src/DDCheckMaterials.cc"
@@ -81,12 +80,8 @@ int main(int argc, char *argv[])
       "process.p = cms.Path(process.m1)\n"
       "process.e = cms.EndPath(process.out)\n";
 
-    boost::shared_ptr<std::vector<edm::ParameterSet> > pServiceSets;
-    boost::shared_ptr<edm::ParameterSet>          params_;
-    edm::makeParameterSets(config, params_, pServiceSets);
-
     // D.  Create the services.
-    edm::ServiceToken tempToken(edm::ServiceRegistry::createSet(*pServiceSets.get()));
+    edm::ServiceToken tempToken(edm::ServiceRegistry::createServicesFromConfig(config));
 
     // E.  Make the services available.
     edm::ServiceRegistry::Operate operate(tempToken);
